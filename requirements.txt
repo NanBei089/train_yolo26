@@ -17,3 +17,4 @@ onnxruntime-gpu>=1.22.0
 PyYAML>=6.0.2
 
 tqdm
+
