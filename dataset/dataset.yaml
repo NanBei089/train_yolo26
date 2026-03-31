@@ -4,4 +4,3 @@ val: images/val
 test: images/test
 names:
 - nutrition_table
-- product_info_block

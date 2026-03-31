@@ -27,6 +27,7 @@ desktop.ini
 # IDE
 .idea/
 .vscode/
+.trae/
 *.iml
 
 # Training artifacts / experiment tracking
@@ -47,6 +48,8 @@ mlruns/
 *.ckpt
 *.pth
 
-# Datasets / large media
+# Raw data / generated dataset
 data/images/
+data/labels/
 dataset/images/
+dataset/labels/

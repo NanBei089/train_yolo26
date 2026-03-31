@@ -174,7 +174,7 @@ def train_yolo(
 def main() -> None:
     # 自定义训练模型参数
     model_name = "yolo26s.pt"
-    data_yaml = "./dataset/data.yaml"
+    data_yaml = "./dataset/dataset.yaml"
     batch_size = -1
     epochs = 180
     img_size = 640
