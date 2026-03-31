@@ -1,0 +1,19 @@
+# Ultralytics YOLO training stack (YOLO26 requires newer versions)
+ultralytics>=8.3.227
+
+# PyTorch stack (CUDA 12.6 on Windows)
+# Install recommendation:
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
+# torch
+
+# TensorFlow (required by project)
+tensorflow>=2.19.0
+
+# ONNX export and GPU runtime
+onnx>=1.18.0
+onnxruntime-gpu>=1.22.0
+
+# Utilities
+PyYAML>=6.0.2
+
+tqdm

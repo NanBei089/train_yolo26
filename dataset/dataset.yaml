@@ -1,0 +1,7 @@
+path: E:\GraduationProject\project\train_yolo26s\dataset
+train: images/train
+val: images/val
+test: images/test
+names:
+- nutrition_table
+- product_info_block

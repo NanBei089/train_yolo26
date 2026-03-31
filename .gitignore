@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Test / type / lint caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Training artifacts / experiment tracking
+runs/**/weights/
+runs/**/weights/**
+runs/**/events.out.tfevents*
+*.cache
+wandb/
+mlruns/
+
+# Model artifacts
+*.pt
+*.onnx
+*.engine
+*.tflite
+*.torchscript
+*.mlmodel
+*.ckpt
+*.pth
+
+# Datasets / large media
+data/images/
+dataset/images/
